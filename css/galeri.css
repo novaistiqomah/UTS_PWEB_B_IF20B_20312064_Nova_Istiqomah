@@ -1,0 +1,71 @@
+/* Font Online */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+/* Font Offline */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../font/Montserrat-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../font/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../font/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../font/Montserrat-Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+}
+
+#galeri #pills-tab {
+	margin-top: 100px;
+}
+
+#galeri {
+	margin: 10px 50px; 
+	transition: 1s;
+}
+
+#galeri img {
+	width: 300px;
+	height: 200px;
+	transition: 1s;
+	padding: 10px;
+}
+
+#galeri img:hover {
+	filter: grayscale(100%);
+	transform: scale(1, 1);
+}
+
+#galeri .row {
+	margin-bottom: 20px;
+}
